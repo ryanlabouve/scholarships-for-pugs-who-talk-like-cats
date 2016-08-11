@@ -1,53 +1,47 @@
-# Scholarships-for-pugs-who-talk-like-cats
+# Scholarships for pugs who talk like cats and are named after cupcakes
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Welcome to a friendly code challenge.
 
-## Prerequisites
+Today we will be building an Ember app that will help to display information
+about potential scholarship winners.
 
-You will need the following things properly installed on your computer.
+Judges will use this app to help them decided who will be awarded _the
+scholarship_.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+Here's a simple sketch of how it should look:
 
-## Installation
+![https://gifcannon.s3.amazonaws.com/foo_2016-08-11_10-53-57.png](https://gifcannon.s3.amazonaws.com/foo_2016-08-11_10-53-57.png)
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Again, to boil it down, we are starting by displaying the information that we
+find at `/pugs` in a list.
 
-## Running / Development
+## Technical Details
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+At `/pugs`, you will find a collection of pugs who talk like cats and are named
+after cupcakes.
 
-### Code Generators
+_/pugs_
 
-Make use of the many generators for code, try `ember help generate` for more details
+* name
+* photo
+* bio
 
-### Running Tests
+I have left a debugger on the application route `afterModel` so you can inspect
+this for yourself. 
 
-* `ember test`
-* `ember test --server`
+## Notes
 
-### Building
+* Don't feel like you have to focus that much on making this look fancy! You are
+  free to drop in a CSS library or framework if you would like, but if you would
+  rather just focus on building, that's great!
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* This is not as much about execution as it is about process and problem
+  solving!
 
-### Deploying
+* If you get stuck, feel free to use any references, resources, or materials that
+  you would like. 
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* There may be more to this challenge than is listed in this README. So please
+  try to be quick. Feel free to skip writing tests or worrying about JSCS/JSHINT
+  errors. 😁
 
